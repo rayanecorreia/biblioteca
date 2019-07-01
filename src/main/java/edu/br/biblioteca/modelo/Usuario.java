@@ -1,11 +1,13 @@
 package edu.br.biblioteca.modelo;
 
+import java.util.List;
+
 public class Usuario {
 	
 	private String matricula;
 	private String email;
 	private String senha;
-	
+	private List<Livro> LivrosLocados;
 	
 	
 	public Usuario() {
